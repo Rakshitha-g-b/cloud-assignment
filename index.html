@@ -7,23 +7,83 @@
         body {
             font-family: Arial;
             text-align: center;
-            background-color: #f4f6f9;
-            margin-top: 100px;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 80px;
         }
         .box {
             background: white;
-            padding: 30px;
-            border-radius: 10px;
+            padding: 40px;
+            border-radius: 15px;
             display: inline-block;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
-        h1 { color: black; }
+        h1 {
+            color: #333;
+        }
+        .section {
+            margin-top: 20px;
+            text-align: left;
+        }
+        ul {
+            text-align: left;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: gray;
+        }
     </style>
 </head>
+
 <body>
+
+<div class="container">
     <div class="box">
-        <h1>My Cloud Project</h1>
-        <p>Deployed using Render Cloud Platform</p>
-        <p>Subject: Cloud Computing</p>
+
+        <h1>Cloud Computing Project</h1>
+
+        <p><strong>Name:</strong> Pallavi M</p>
+        <p><strong>Subject:</strong> Cloud Computing</p>
+
+        <div class="section">
+            <h3>Project Description</h3>
+            <p>This project demonstrates deployment of a web application using the Render cloud platform.</p>
+        </div>
+
+        <div class="section">
+            <h3>Tools Used</h3>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>GitHub Repository</li>
+                <li>Render Cloud Platform</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Deployment Steps</h3>
+            <ul>
+                <li>Created website using HTML</li>
+                <li>Uploaded files to GitHub</li>
+                <li>Connected GitHub to Render</li>
+                <li>Deployed application successfully</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Outcome</h3>
+            <p>The website is successfully deployed and accessible through a public URL.</p>
+        </div>
+
+        <footer>
+            Hosted on Render Cloud Platform
+        </footer>
+
     </div>
+</div>
+
 </body>
 </html>
